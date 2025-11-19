@@ -106,9 +106,7 @@ fun GameScreen(viewModel: BallViewModel) {
             // (Don't forget to add a null check for gravitySensor!)
             if (gravitySensor != null) {
                 // ... sensorManager.unregisterListener ...
-                if (gravitySensor != null) {
                     sensorManager.unregisterListener(listener, gravitySensor)
-                }
             }
         }
     }
